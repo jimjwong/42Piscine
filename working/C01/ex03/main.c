@@ -10,8 +10,8 @@ int main (void)
 	int mod;
 
 	ft_div_mod(a, b, &div, &mod);
-	write(1, div, 1);
+	write(1, &"0123456789"[div], 1);
 	write(1, " ", 1);
-	write(1, mod, 1);
+	write(1, &"0123456789"[mod], 1);
 	return (0);
 }
